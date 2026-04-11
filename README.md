@@ -5,7 +5,12 @@ In questa repository si trovano dei piccolissimi programmi in C++ che svolgono s
 
 
 
+Nella repository si trova anche un programma di calcolatrice in Python.
+
+
+
 ###### Come avviare il programma:
 
-Per avviare il programma, compilare il relativo file .cpp usando un compilatore C++ (come g++ o Visual Studio) e avviare l'eseguibile generato.
+* Per avviare un programma in C++, compilare il relativo file .cpp usando un compilatore C++ (come g++ o Visual Studio) e avviare l'eseguibile generato.
+* Per avviare il programma in Python, compilare il file .py usando un compilatore Python.
 
