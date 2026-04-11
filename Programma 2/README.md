@@ -6,7 +6,4 @@ Questo programma in C++ calcola la somma e la media aritmetica di 10 numeri inse
 
 ###### Come avviare il programma:
 
-Per eseguire il programma è sufficiente scaricare l'eseguibile (.exe) e avviarlo.
-
-Windows o il browser potrebbero segnalarlo come rischioso: ciò è normale e deriva dalla mancanza di un certificato di attendibilità per il programma, ma è sicuro al 100%, cosa comunque verificabile eseguendo un'analisi antivirus del programma.
-
+Per avviare il programma, compilare il file Programma 2.cpp usando un compilatore C++ (come g++ o Visual Studio) e avviare l'eseguibile generato.
