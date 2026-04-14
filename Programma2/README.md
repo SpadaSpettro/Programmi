@@ -1,9 +1,15 @@
-###### Programma 2
+###### Program 2
 
-Questo programma in C++ calcola la somma e la media aritmetica di 10 numeri inseriti dall'utente, più un calcolo condizionale speciale!
+This C++ program calculates the sum and average of 10 user-entered numbers, plus a special conditional calculation!
 
 
 
-###### Come avviare il programma:
+###### How to run the program:
 
-Per avviare il programma, compilare il file Programma 2.cpp usando un compilatore C++ (come g++ o Visual Studio) e avviare l'eseguibile generato.
+To run the program, compile the "Programma2.cpp" file using a C++ compiler (such as g++ or Visual Studio) and run the generated executable.
+
+
+
+## Download
+
+The latest compiled version for Windows is available for download in the [Releases](https://github.com/SpadaSpettro/Programmi/releases) section.

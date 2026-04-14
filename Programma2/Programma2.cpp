@@ -14,7 +14,7 @@ int main() {
    SetConsoleOutputCP(CP_UTF8);
    SetConsoleCP(CP_UTF8);
 
-   double n, somma=0.0, media=0.0; //Variabili
+   double n, somma=0, media=0; //Variabili
    
    cout << "Questo programma calcola la somma e la media aritmetica di 10 numeri, più un calcolo speciale!\n" << endl;
    cout << "Inserire 10 numeri:" << endl;
@@ -23,14 +23,17 @@ int main() {
       n = controllaDouble();
       somma+=n;
    }
-   cout << "\nLa somma dei 10 numeri inseriti è: " << somma << endl;
+   cout << "\nLa somma dei 10 numeri inseriti è: " << somma << "."<<endl;
    media=somma/10.0;
-   cout << "La media aritmetica dei 10 numeri inseriti è: " << media << endl;
+   cout << "La media aritmetica dei 10 numeri inseriti è: " << media << "." << endl;
    if (media>100 && fmod(somma, 2)==0) {
-      cout << "Il quadrato della media è: " << media*media;
+      cout << "Il quadrato della media è: " << media*media << "." << endl;
    } else {
-      cout << "Il triplo della somma è: " << somma*3.0;
+      cout << "Il triplo della somma è: " << somma*3.0 << "." << endl;
    }
+
+   cin.ignore(numeric_limits<streamsize>::max(), '\n');
+   cin.get();
    return 0;
 }
 
