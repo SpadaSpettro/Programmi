@@ -1,9 +1,15 @@
-###### Programma
+###### Program
 
-Questo programma in C++ prende in input un numero intero compreso tra 1 e 100 (inclusi) e, a seconda del numero inserito, esegue diverse operazioni.
+This C++ program takes an integer between 1 and 100 (inclusive) as input and performs various operations depending on the number entered.
 
 
 
-###### Come avviare il programma:
+###### How to run the program:
 
-Per avviare il programma, compilare il file Programma.cpp usando un compilatore C++ (come g++ o Visual Studio) e avviare l'eseguibile generato.
+To run the program, compile the "Programma.cpp" file using a C++ compiler (such as g++ or Visual Studio) and run the generated executable.
+
+
+
+## Download
+
+The latest compiled version for Windows is available for download in the [Releases](https://github.com/SpadaSpettro/Programmi/releases) section.

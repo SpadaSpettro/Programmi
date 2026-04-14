@@ -11,7 +11,7 @@ int main () {
    
    do {
       int n;
-      cout << "Questo programma chiede di inserire un numero intero compreso tra 1 e 100 (inclusi) e, a seconda del numero inserito, esegue diverse operazioni.\n" << endl;
+      cout << "\nQuesto programma chiede di inserire un numero intero compreso tra 1 e 100 (inclusi) e, a seconda del numero inserito, esegue diverse operazioni.\n" << endl;
       cout << "Inserire un numero intero compreso tra 1 e 100 (inclusi): ";
       n = controllaInt();
       while (n<1 || n>100) {
@@ -27,21 +27,25 @@ int main () {
       } else {
          cout << n << "/2=" << n/2 << ", senza resto." << endl;
       }
-      cout << "Inserire 'y' per continuare a eseguire il programma, inserire qualsiasi altro valore per uscire: ";
+      cout << "\nInserire 'y' per continuare a eseguire il programma, inserire qualsiasi altro valore per uscire: ";
       cin >> continua;
    }
    while (continua=='y');
    cout << "Grazie per aver utilizzato il programma";
+
+   cin.ignore(numeric_limits<streamsize>::max(), '\n');
+   cin.get();
+   return 0;
 }
 
 //Definizione funzioni
 int controllaInt() {
-   int valore;
+   float valore;
    while (!(cin >> valore) || valore!=static_cast<int>(valore)) {
       cout << "Errore. Valore non riconosciuto. Riprovare: ";
       cin.clear();
       cin.ignore(numeric_limits<streamsize>::max(), '\n');
    }
    cin.ignore(numeric_limits<streamsize>::max(), '\n');
-   return valore;
+   return static_cast<int>(valore);
 }
