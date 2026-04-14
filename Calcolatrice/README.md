@@ -1,14 +1,14 @@
-###### Calcolatrice
+###### Calculator
 
-Questo programma in Python si comporta come una calcolatrice, eseguendo le operazioni matematiche fondamentali.
-
-
-
-Il programma è anche dotato di una funzione di cronologia che mostra a schermo le operazioni effettuate!
+This Python program has the functions of a calculator and can perform basic mathematical operations.
 
 
 
-###### Come avviare il programma:
+The program also features a history function which displays the performed operations!
 
-Per avviare il programma, compilare il file calcolatrice.py usando un compilatore Python.
+
+
+###### How to run the program:
+
+To run the program, compile the "calcolatrice.py" file using a Python compiler.
 
