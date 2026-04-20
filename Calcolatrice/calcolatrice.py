@@ -69,7 +69,7 @@ class Calcolatrice:
 			while True:
 				valore2 = self.richiedi_numero(TESTO2)
 				if operazione == "/" and valore2 == 0:
-					print("Non puoi dividere per 0! Inserisci un altro numero.\n")
+					print("Non puoi dividere per 0!\n")
 				else:
 					break  # Esce dal controllo divisione e procede al calcolo.
 			calcolo = f"{valore1_tot} {operazione} {valore2} ="
